@@ -1,0 +1,29 @@
+{
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.zalo.me/*"],
+            "js": ["contentscript.js"],
+            "run_at": "document_start"
+        }
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';connect-src 'self' ws: wss: http: https:",
+    "icons": {
+        "128": "img/icon.png",
+        "16": "img/icon.png",
+        "48": "img/icon.png"
+    },
+    "description": "Zalo Key",
+    "name": "Zalo Key",
+    "short_name": "Zalo Key",
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "https://*.zalo.me/*",
+        "https://cuaa.pro/*"
+    ],
+    "version": "1.0.0",
+    "manifest_version": 2
+}

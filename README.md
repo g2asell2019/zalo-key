@@ -1,2 +1,3 @@
-# zalo-key-extension
- this extension redirect your data from zalo to attacker server (DO NOT INSTALL ON YOUR BROWSER)
+# DISCLAIM
+    This extension is virus and DO NOT INSTALL on your browser
+    I upload this for educational purposes only
